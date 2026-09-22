@@ -20,7 +20,8 @@ import {
 import { aggregateMetrics, sleep } from "@/lib/eval/metrics";
 
 export const runtime = "nodejs";
-export const maxDuration = 1800;
+// Vercel Hobby allows max 300s; Pro can raise this for full 19×N runs.
+export const maxDuration = 300;
 
 const GoldQuestionSchema = z.object({
   id: z.string().min(1),
