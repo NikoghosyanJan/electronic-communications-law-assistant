@@ -24,14 +24,23 @@
 .DS_Store
 *.pem
 
+# one-shot PDF side extracts (canonical corpus is data/law.md)
+data/*.extract.txt
+
 # debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
+# env files — keep .env.example committed as the template
+.env
+.env.*
+!.env.example
+
+# local secrets / key material (defense in depth beyond .env.*)
+*.key
+secrets/
 
 # vercel
 .vercel

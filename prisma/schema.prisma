@@ -1,0 +1,92 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+// pgvector is enabled via migration (CREATE EXTENSION vector), not datasource
+// extensions — postgresqlExtensions preview is deprecated in Prisma 7.
+datasource db {
+  provider = "postgresql"
+}
+
+enum ChunkType {
+  parent
+  child
+}
+
+enum EvalRunStatus {
+  pending
+  running
+  completed
+  failed
+}
+
+model LawChunk {
+  id            String                       @id @default(cuid())
+  articleNumber Int
+  articleTitle  String
+  chapter       String?
+  parentId      String?
+  parent        LawChunk?                    @relation("ChunkHierarchy", fields: [parentId], references: [id], onDelete: Cascade)
+  children      LawChunk[]                   @relation("ChunkHierarchy")
+  chunkType     ChunkType
+  content       String
+  tokenEstimate Int                          @default(0)
+  /// pgvector column — written/read via $executeRaw / $queryRaw
+  embedding     Unsupported("vector(1536)")?
+  metadata      Json?
+  createdAt     DateTime                     @default(now())
+  updatedAt     DateTime                     @updatedAt
+
+  @@index([articleNumber])
+  @@index([chunkType])
+  @@index([parentId])
+  @@map("law_chunks")
+}
+
+model EvalRun {
+  id         String        @id @default(cuid())
+  status     EvalRunStatus @default(pending)
+  startedAt  DateTime?
+  finishedAt DateTime?
+  notes      String?
+  summary    Json?
+  createdAt  DateTime      @default(now())
+  results    EvalResult[]
+
+  @@map("eval_runs")
+}
+
+model EvalResult {
+  id                 String   @id @default(cuid())
+  runId              String
+  run                EvalRun  @relation(fields: [runId], references: [id], onDelete: Cascade)
+  questionId         String
+  provider           String
+  model              String
+  lang               String
+  questionType       String
+  question           String
+  answer             String?
+  citations          Json?
+  retrievedArticles  Json?
+  goldArticles       Json?
+  answerAccuracy     Float?
+  citationAccuracy   Float?
+  hallucinationRate  Float?
+  retrievalRecallAtK Float?
+  ttftMs             Int?
+  totalMs            Int?
+  promptTokens       Int?
+  completionTokens   Int?
+  costUsd            Float?
+  status             String
+  errorMessage       String?
+  judgeNotes         String?
+  raw                Json?
+  createdAt          DateTime @default(now())
+
+  @@index([runId])
+  @@index([provider])
+  @@index([questionId])
+  @@map("eval_results")
+}

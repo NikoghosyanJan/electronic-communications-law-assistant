@@ -1,0 +1,347 @@
+[
+  {
+    "id": "hy-01",
+    "lang": "hy",
+    "type": "answerable",
+    "subtype": "single",
+    "question": "Ե՞րբ կարող են սակագնային կարգավորման ենթակա ծառայություններ մատուցողները զեղչել սակագները, և ե՞րբ է զեղչը կիրառվում։",
+    "gold_articles": [30],
+    "gold_key_points": [
+      "զեղչ՝ վերջնական օգտագործողին մատուցված ծառայությունների ծավալի հիման վրա, եթե ծախսային հիմնավորված է",
+      "նոր սակագնով ծառայության զեղչ՝ առավելագույնը 90 օր բաժանորդագրումից",
+      "զեղչը պետք է լինի հրապարակային, բաց և նույնությամբ հասանելի նման իրավիճակում գտնվող բոլոր հաճախորդներին",
+      "զեղչումը կիրառվում է միայն Կարգավորողի հաստատումից հետո",
+      "Կարգավորողը կարող է մերժել գերիշխողի զեղչը, եթե այն վնասում է այլ շուկայի մասնակիցների մրցունակությանը"
+    ],
+    "must_not": [
+      "զեղչը կիրառվում է առանց Կարգավորողի հաստատման",
+      "նոր ծառայության զեղչը կարող է տևել մեկ տարի",
+      "գերիշխողը միշտ իրավունք ունի ցանկացած զեղչի"
+    ],
+    "gold_answer": "Հոդված 30․ Սակագնային կարգավորման ենթակա ծառայություններ մատուցողները կարող են զեղչել՝ (1) վերջնական օգտագործողին մատուցված ծառայությունների ծավալի հիման վրա, եթե դա ծախսերի տեսակետից հիմնավորված է, կամ (2) նոր սակագնով ծառայության համար՝ ոչ ավելի քան 90 օր բաժանորդագրվելու օրվանից։ Ցանկացած զեղչ պետք է լինի հրապարակային, բաց և նույնությամբ հասանելի նման իրավիճակում գտնվող բոլոր հաճախորդներին։ Զեղչումը կիրառվում է Կարգավորողի հաստատումից հետո։ Կարգավորողը կարող է մերժել ծառայությունների մատուցման մեջ գերիշխողի առաջարկած զեղչը, եթե այն վնասում է տվյալ շուկայի այլ մասնակիցների մրցունակությանը։"
+  },
+  {
+    "id": "hy-02",
+    "lang": "hy",
+    "type": "answerable",
+    "subtype": "single",
+    "question": "Արդյո՞ք կարելի է շահագործել էլեկտրոնային հաղորդակցության ցանց կամ մատուցել ծառայություն՝ օգտագործելով ռադիոհաճախականություններ առանց թույլտվության։",
+    "gold_articles": [17],
+    "gold_key_points": [
+      "եթե ցանցի կամ ծառայության համար անհրաժեշտ է ռադիոհաճախականություն, առանց թույլտվության չի կարելի",
+      "Կարգավորողը հատկացնում է ռադիոհաճախականությունները",
+      "հանրային ցանցի ծառայությունների համար թույլտվություն՝ միայն ցանցի լիցենզիա ունեցող կամ ստանալու իրավասու դիմողին"
+    ],
+    "must_not": [
+      "թույլտվություն չի պահանջվում",
+      "բավարար է միայն ծանուցումը առանց թույլտվության"
+    ],
+    "gold_answer": "Հոդված 17 մաս 1․ եթե ցանցի շահագործման կամ ծառայություն մատուցելու համար անհրաժեշտ է ռադիոհաճախականությունների օգտագործում, անձը չի կարող այդ ցանցն օգտագործել կամ ծառայությունը մատուցել առանց ռադիոհաճախականությունների օգտագործման թույլտվության։ Կարգավորողն է հատկացնում հաճախականությունները (մաս 2)․ հանրային ցանցի ծառայությունների համար թույլտվություն կարող է տրվել միայն ցանցի լիցենզիա ունեցող կամ ստանալու իրավասու դիմողին (մաս 4)։"
+  },
+  {
+    "id": "hy-03",
+    "lang": "hy",
+    "type": "answerable",
+    "subtype": "single",
+    "question": "Ո՞վ է պարտավոր փոխկապակցել հանրային էլեկտրոնային հաղորդակցության ցանցերը և ի՞նչ սկզբունքներով։",
+    "gold_articles": [33],
+    "gold_key_points": [
+      "յուրաքանչյուր օպերատոր պարտավոր է պահանջի հիման վրա փոխկապակցել իր ցանցը այլ օպերատորի ցանցի հետ",
+      "«յուրաքանչյուրը յուրաքանչյուրի հետ»՝ բոլոր հաճախորդները կարող են հաղորդակցվել մյուս ցանցերի հաճախորդների հետ",
+      "«վերջնակետից վերջնակետ» փոխկապակցում",
+      "փոխկապակցող օպերատորները հավասար պատասխանատվություն են կրում ողջամիտ ժամկետներում ապահովելու համար"
+    ],
+    "must_not": [
+      "միայն գերիշխող օպերատորն է պարտավոր փոխկապակցել",
+      "փոխկապակցումը լրիվ կամավոր է բոլոր օպերատորների համար"
+    ],
+    "gold_answer": "Հոդված 33․ Յուրաքանչյուր օպերատոր պարտավոր է պահանջի հիման վրա փոխկապակցել իր հանրային էլեկտրոնային հաղորդակցության ցանցը այլ օպերատորի ցանցի հետ՝ «յուրաքանչյուրը յուրաքանչյուրի հետ» և «վերջնակետից վերջնակետ» սկզբունքներով։ Փոխկապակցող օպերատորները հավասար պատասխանատվություն են կրում փոխկապակցումը ողջամիտ ժամկետներում ապահովելու համար։"
+  },
+  {
+    "id": "hy-04",
+    "lang": "hy",
+    "type": "answerable",
+    "subtype": "synthesis",
+    "question": "Ե՞րբ է անձը համարվում գերիշխող դիրք ունեցող, և ո՞վ է որոշում գերիշխող դիրքը։",
+    "gold_articles": [22, 23],
+    "gold_key_points": [
+      "գերիշխող է, եթե չունի մրցակից կամ էական մրցակցություն, կամ շրջանառությունը շուկայի առնվազն մեկ երրորդն է",
+      "Կարգավորողը որոշում է գերիշխող դիրքը",
+      "խորհրդակցելով տնտեսական մրցակցության պաշտպանության պետական հանձնաժողովի հետ",
+      "մտադրությունը հրապարակում է առնվազն երկու ամիս առաջ"
+    ],
+    "must_not": [
+      "շուկայի 50%-ից ավելին միակ չափանիշն է",
+      "միայն դատարանն է որոշում գերիշխող դիրքը"
+    ],
+    "gold_answer": "Հոդված 22․ տվյալ շուկայում անձը գերիշխող է, եթե որպես մատակարար կամ սպառող չունի մրցակից կամ էական մրցակցություն, կամ շրջանառության ծավալները կազմում են ընդհանուր շուկայի առնվազն մեկ երրորդը։ Հոդված 23․ Կարգավորողը՝ ՀՀ տնտեսական մրցակցության պաշտպանության պետական հանձնաժողովի հետ խորհրդակցելով, որոշում է գերիշխող դիրքը և առնվազն երկու ամիս առաջ հրապարակում է գերիշխող (կամ ոչ գերիշխող) ճանաչելու մտադրությունը։"
+  },
+  {
+    "id": "hy-05",
+    "lang": "hy",
+    "type": "answerable",
+    "subtype": "single",
+    "question": "Ի՞նչ ծանուցում է պահանջվում բաժանորդի ծառայությունը սահմանափակելու կամ կասեցնելուց առաջ, և ի՞նչ հնարավորություն պետք է պահպանվի։",
+    "gold_articles": [45],
+    "gold_key_points": [
+      "ծանուցում՝ առնվազն հինգ աշխատանքային օր առաջ",
+      "ծանուցումը նշում է տևողությունը և պատճառները",
+      "անհապաղ կասեցում հնարավոր է չսերտիֆիկացված կամ անհամատեղելի սարքավորումների դեպքում առանց այդ ծանուցման",
+      "տեխնիկապես հնարավորության դեպքում պետք է պահպանվի ոստիկանություն, շտապօգնություն, հրշեջ և փրկարարական ծառայություններ զանգահարելու հնարավորությունը"
+    ],
+    "must_not": [
+      "ծանուցում չի պահանջվում բոլոր դեպքերում",
+      "արտակարգ զանգերի հասանելիությունը միշտ դադարեցվում է"
+    ],
+    "gold_answer": "Հոդված 45 մաս 2․ ծառայություններ մատուցողը կարող է սահմանափակել կամ կասեցնել ծառայությունը, եթե բաժանորդին ծանուցել է ցանցով կամ գրավոր՝ առնվազն հինգ աշխատանքային օր առաջ, նշելով տևողությունը և պատճառները։ Այդ ծանուցումը չի պահանջվում մաս 1-ի 2-րդ և 3-րդ կետերով նախատեսված անհապաղ դեպքերում (չսերտիֆիկացված կամ անհամատեղելի սարքավորումներ)։ Մաս 4․ սահմանափակման/կասեցման դեպքում, եթե տեխնիկապես հնարավոր է, բաժանորդը պետք է պահպանի ոստիկանություն, շտապ բուժօգնություն, հրշեջ և փրկարարական ծառայություններ զանգահարելու հնարավորությունը։"
+  },
+  {
+    "id": "hy-06",
+    "lang": "hy",
+    "type": "answerable",
+    "subtype": "single",
+    "question": "Ո՞վ է «Կարգավորողը» սույն օրենքի իմաստով։",
+    "gold_articles": [2],
+    "gold_key_points": [
+      "Կարգավորողը Հանձնաժողով է",
+      "ստեղծվում է «Հանրային ծառայությունները կարգավորող մարմնի մասին» ՀՀ օրենքով"
+    ],
+    "must_not": [
+      "Կարգավորողը Կառավարությունն է",
+      "Կարգավորողը Ազգային ժողովն է"
+    ],
+    "gold_answer": "Հոդված 2․ Կարգավորողը «Հանրային ծառայությունները կարգավորող մարմնի մասին» Հայաստանի Հանրապետության օրենքի համաձայն ստեղծվող Հանձնաժողովն է։"
+  },
+  {
+    "id": "en-01",
+    "lang": "en",
+    "type": "answerable",
+    "subtype": "single",
+    "question": "Does this Electronic Communications Law apply to broadcast television and radio program providers?",
+    "gold_articles": [3],
+    "gold_key_points": [
+      "the law does not apply to persons providing broadcast television and audio programs",
+      "nor to infrastructure used exclusively for such programs"
+    ],
+    "must_not": [
+      "the law fully regulates broadcast TV content",
+      "broadcasters need a network license under Article 15 for programming"
+    ],
+    "gold_answer": "Article 3(2): this law does not apply to persons providing broadcast television and audio programs, or to infrastructure used exclusively for such programs."
+  },
+  {
+    "id": "en-02",
+    "lang": "en",
+    "type": "answerable",
+    "subtype": "single",
+    "question": "What general standard must public electronic communications service tariffs meet?",
+    "gold_articles": [26],
+    "gold_key_points": [
+      "tariffs must be fair and reasonable",
+      "any tariff that is not fair or reasonable is unlawful",
+      "a similar tariff already set for a similar service may justify fairness and reasonableness"
+    ],
+    "must_not": [
+      "any price the operator chooses is automatically lawful",
+      "the law fixes one nationwide AMD tariff schedule in Article 26"
+    ],
+    "gold_answer": "Article 26(1): public electronic communications service tariffs must be fair and reasonable; any tariff that is not fair or reasonable is unlawful. A similar tariff already set for a similar service may serve as justification that a tariff is fair and reasonable."
+  },
+  {
+    "id": "en-03",
+    "lang": "en",
+    "type": "answerable",
+    "subtype": "single",
+    "question": "On what conditions may the Regulator extend a license or radio-frequency authorization?",
+    "gold_articles": [13],
+    "gold_key_points": [
+      "extension is on the licensee’s application",
+      "extension is for the same duration as the previously granted term",
+      "licensee operated within the conditions of the first license or authorization",
+      "no material violation of this law or rules adopted under it during the first term"
+    ],
+    "must_not": [
+      "automatic perpetual extension without application",
+      "extension always grants new exclusive rights"
+    ],
+    "gold_answer": "Article 13(1): on the licensee’s application, the Regulator may extend a license or radio-frequency authorization for the same duration as the previously granted term if (1) the licensee acted within the conditions of the first grant, and (2) during that first term there was no material violation of this law or rules adopted under it. Article 13(2): on extension the Regulator may change conditions or add conditions but may not extend or grant exclusive rights or privileges."
+  },
+  {
+    "id": "en-04",
+    "lang": "en",
+    "type": "answerable",
+    "subtype": "single",
+    "question": "Which operators must provide leased-line services, and what annual reporting duty do dominant operators have?",
+    "gold_articles": [48],
+    "gold_key_points": [
+      "all dominant operators except mobile operators must provide leased-line services",
+      "each dominant operator must file an annual report as of March 1 for the previous calendar year",
+      "the report shows compliance with Article 48(4) requirements"
+    ],
+    "must_not": [
+      "mobile dominant operators are also always required to provide leased lines under Article 48(1)",
+      "reports are due only every five years"
+    ],
+    "gold_answer": "Article 48(1): all dominant operators, except mobile operators, must provide leased-line services under this law. Article 48(3): each dominant operator must submit an annual report as of March 1 covering the previous calendar year, showing fulfillment of the requirements in Article 48(4)."
+  },
+  {
+    "id": "en-05",
+    "lang": "en",
+    "type": "answerable",
+    "subtype": "single",
+    "question": "What is collocation (տեղադրում) and what must an operator provide for it?",
+    "gold_articles": [39],
+    "gold_key_points": [
+      "operator must allow another operator or service provider to place equipment needed for interconnection or access at the operator’s premises",
+      "on reasonable rates and conditions",
+      "virtual arrangement is allowed if physical placement is not practically justified for technical or space reasons",
+      "collocation includes space, necessary electric power and lighting, and cross-connection"
+    ],
+    "must_not": [
+      "operators may never refuse physical collocation for any reason",
+      "collocation excludes power and lighting"
+    ],
+    "gold_answer": "Article 39(1): an operator must, on reasonable rates and conditions, enable another operator or service provider to place equipment needed for interconnection with or access to its public electronic communications network at the operator’s premises; virtual arrangement is allowed if the operator proves physical placement is not practically justified for technical reasons or limited space. Article 39(3): collocation includes providing space, necessary electric power and lighting, and cross-connection between the placed equipment and the host’s switches or nodes."
+  },
+  {
+    "id": "en-06",
+    "lang": "en",
+    "type": "answerable",
+    "subtype": "single",
+    "question": "What is a universal service under this law, and what special duty does the historically dominant operator have?",
+    "gold_articles": [40],
+    "gold_key_points": [
+      "universal service is a minimum set of services approved by the Regulator",
+      "available at an affordable price",
+      "must meet quality criteria for all end users regardless of geography",
+      "historically dominant operator must provide all universal services and their capabilities"
+    ],
+    "must_not": [
+      "free 5G in every village by 2027",
+      "Article 40 lists a fixed AMD price for universal service"
+    ],
+    "gold_answer": "Article 40(1): universal service is a minimum set of services approved by the Regulator (consistent with competent-body policy and after stakeholder consultation), available at an affordable price and defined quality for all end users regardless of geography. Article 40(3)(3): the historically dominant operator must provide all universal services and provide universal-service capabilities."
+  },
+  {
+    "id": "en-07",
+    "lang": "en",
+    "type": "answerable",
+    "subtype": "single",
+    "question": "May the Regulator regulate tariffs charged by an internet service provider for internet access?",
+    "gold_articles": [27],
+    "gold_key_points": [
+      "the Regulator is not authorized to regulate",
+      "tariffs charged by an internet service provider",
+      "for internet access"
+    ],
+    "must_not": [
+      "the Regulator must set all ISP retail internet prices",
+      "Article 27 fixes a maximum AMD internet tariff"
+    ],
+    "gold_answer": "Article 27(2): the Regulator is not authorized to regulate tariffs charged by an internet service provider for internet access."
+  },
+  {
+    "id": "adv-01",
+    "lang": "en",
+    "type": "adversarial",
+    "subtype": "oos",
+    "question": "What is the maximum prison sentence for illegal wiretapping under the Armenian Criminal Code?",
+    "gold_articles": [],
+    "gold_key_points": [
+      "out of scope of this Electronic Communications Law",
+      "Criminal Code prison terms are not set in this statute"
+    ],
+    "must_not": [
+      "years imprisonment under this law",
+      "Article 50 sets a prison term"
+    ],
+    "gold_answer": "This Electronic Communications Law does not set Criminal Code prison sentences. Refuse or say the retrieved law does not cover that."
+  },
+  {
+    "id": "adv-02",
+    "lang": "hy",
+    "type": "adversarial",
+    "subtype": "oos",
+    "question": "Որքա՞ն է Վիվա-ՄՏՍ-ի 2024 թվականի շահույթը ըստ այս օրենքի։",
+    "gold_articles": [],
+    "gold_key_points": [
+      "օրենքը չի պարունակում կորպորատիվ ֆինանսական տվյալներ",
+      "պետք է մերժել"
+    ],
+    "must_not": [
+      "միլիարդ դրամ շահույթ",
+      "կոնկրետ շահույթի թիվ"
+    ],
+    "gold_answer": "Օրենքը չի պարունակում օպերատորների ֆինանսական արդյունքներ․ պետք է մերժել։"
+  },
+  {
+    "id": "adv-03",
+    "lang": "en",
+    "type": "adversarial",
+    "subtype": "oos",
+    "question": "Combining tariff regulation and interconnection rules, what exact AMD interconnection rate must every operator charge in 2026?",
+    "gold_articles": [],
+    "gold_key_points": [
+      "no fixed AMD interconnection rate for 2026 in the statute",
+      "refuse inventing a number"
+    ],
+    "must_not": [
+      "operators must charge",
+      "fixed rate of",
+      "dram per minute in 2026"
+    ],
+    "gold_answer": "The law sets principles for tariff and interconnection regulation but does not prescribe a specific 2026 AMD rate. Inventing a number is a hallucination; refuse."
+  },
+  {
+    "id": "adv-04",
+    "lang": "en",
+    "type": "adversarial",
+    "subtype": "near_miss",
+    "question": "Under Article 50 of this law, what is the maximum prison sentence for intercepting a message?",
+    "gold_articles": [],
+    "gold_key_points": [
+      "Article 50 does not set a prison sentence",
+      "it conditions interception on written consent of the parties or a court order",
+      "refuse inventing Criminal Code penalties"
+    ],
+    "must_not": [
+      "years in prison",
+      "imprisonment of"
+    ],
+    "gold_answer": "Article 50 regulates when a non-party may intercept, record, or disclose a message (written consent of the parties or a court order in cases and manner provided by law). It does not prescribe a prison term. Say the penalty is not stated in this article / out of scope."
+  },
+  {
+    "id": "adv-05",
+    "lang": "en",
+    "type": "adversarial",
+    "subtype": "near_miss",
+    "question": "Does this law require all mobile operators to provide free 5G coverage in every village by 2027?",
+    "gold_articles": [],
+    "gold_key_points": [
+      "no such free-5G-by-2027 village mandate in this law",
+      "refuse"
+    ],
+    "must_not": [
+      "mandatory free 5G by 2027",
+      "Article 40 requires free 5G"
+    ],
+    "gold_answer": "No such free-5G-by-2027 village mandate appears in this law; say it is not covered."
+  },
+  {
+    "id": "adv-06",
+    "lang": "hy",
+    "type": "adversarial",
+    "subtype": "underspecified",
+    "question": "Որոնք են այս հոդվածի հիմնական կետերը։",
+    "gold_articles": [],
+    "gold_key_points": [
+      "հարցը չի նշում հոդվածի համարը",
+      "պետք է խնդրել ճշտում",
+      "չամփոփել պատահական հոդվածներ"
+    ],
+    "must_not": [
+      "Հոդված 1-ի նպատակները որպես պատասխան առանց ճշտման"
+    ],
+    "gold_answer": "Հարցը նշում է «այս հոդված» առանց համարի կամ թեմայի․ օգնականը պետք է խնդրի ճշտում և չամփոփի վերցված հարևան հոդվածները։"
+  }
+]
