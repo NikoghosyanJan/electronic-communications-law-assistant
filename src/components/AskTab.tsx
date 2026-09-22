@@ -275,7 +275,7 @@ export function AskTab() {
 
           {result?.retrievedArticles && result.retrievedArticles.length > 0 && (
             <div>
-              <h3 className="ui-label mb-3">Retrieved articles</h3>
+              <h3 className="ui-label mb-3">Related articles</h3>
               <ul className="space-y-2">
                 {result.retrievedArticles.map((a) => {
                   const canOpen = Boolean(a.content?.trim());
