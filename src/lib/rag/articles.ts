@@ -26,7 +26,7 @@ export async function loadArticleBodies(
   });
 
   return new Map(
-    parents.map((p) => [
+    parents.map((p: { articleNumber: number; articleTitle: string; content: string }) => [
       p.articleNumber,
       {
         articleNumber: p.articleNumber,

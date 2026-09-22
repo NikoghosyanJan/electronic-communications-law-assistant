@@ -550,8 +550,8 @@ async function expandWithParents(
     },
   });
 
-  const parentByArt = new Map(
-    parents.map((p) => [
+  const parentByArt = new Map<number, RetrievedChunk>(
+    parents.map((p): [number, RetrievedChunk] => [
       p.articleNumber,
       {
         id: p.id,
@@ -561,7 +561,7 @@ async function expandWithParents(
         chunkType: p.chunkType as string,
         content: p.content,
         distance: bestDist.get(p.articleNumber) ?? 1,
-      } satisfies RetrievedChunk,
+      },
     ]),
   );
 
