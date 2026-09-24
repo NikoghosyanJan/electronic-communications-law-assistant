@@ -106,7 +106,7 @@ Gold set: [`eval/questions.json`](eval/questions.json) (19 claim-based items: 6 
 
 Benchmark tab runs each question through the **same retrieval pipeline** for all providers and stores metrics in Neon.
 
-Filled report: [docs/EVALUATION_REPORT.md](docs/EVALUATION_REPORT.md) (+ PDF) from run `cmucogmp4000daym3sge3h36i` (20×3 heuristic). Gold set is now 19 claim-based items — re-run Benchmark for updated numbers; optionally fix `GROK_API_KEY` (xAI console key) to add the Grok column.
+Filled report: [docs/EVALUATION_REPORT.md](docs/EVALUATION_REPORT.md) (+ PDF) from run `cmuf7bi4d0000jdtyrtdc8yc4` (19 claim-based items × 3 providers, `gpt-4o-mini` judge). Optionally fix `GROK_API_KEY` (xAI console key) to add the Grok column.
 
 ## Docs / deliverables
 
